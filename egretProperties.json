@@ -11,7 +11,8 @@
   "template": {},
   "eui": {
     "exmlRoot": [
-      "resource/eui_skins"
+      "resource/eui_skins",
+      "resource/app_skins"
     ],
     "themes": [
       "resource/default.thm.json"
@@ -40,6 +41,10 @@
     {
       "name": "promise",
       "path": "./promise"
+    },
+    {
+      "name": "puremvc",
+      "path": "libs/puremvc"
     }
   ]
 }

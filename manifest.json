@@ -7,12 +7,35 @@
 		"libs/modules/tween/tween.js",
 		"libs/modules/socket/socket.js",
 		"libs/modules/game/game.js",
-		"promise/bin/promise.js"
+		"promise/bin/promise.js",
+		"libs/puremvc/puremvc.js"
 	],
 	"game": [
+		"bin-debug/app/model/AppProxy.js",
 		"bin-debug/AssetAdapter.js",
-		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
-		"bin-debug/ThemeAdapter.js"
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/app/AppFacade.js",
+		"bin-debug/app/abc/AppMsgConst.js",
+		"bin-debug/app/abc/MediatorName.js",
+		"bin-debug/app/abc/ProxyName.js",
+		"bin-debug/app/controller/AppPrepControllerCommand.js",
+		"bin-debug/app/controller/AppPrepModelCommand.js",
+		"bin-debug/app/controller/AppPrepViewCommand.js",
+		"bin-debug/app/controller/AppStartupCommand.js",
+		"bin-debug/app/controller/LoginReqCommand.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/app/model/LoginProxy.js",
+		"bin-debug/app/view/HallMediator.js",
+		"bin-debug/app/view/LoginMediator.js",
+		"bin-debug/app/view/MainMediator.js",
+		"bin-debug/app/view/RootMediator.js",
+		"bin-debug/app/view/ui/GameMediator.js",
+		"bin-debug/app/view/ui/RootUi.js",
+		"bin-debug/app/view/ui/UiManager.js",
+		"bin-debug/app/view/ui/game/GamePanel.js",
+		"bin-debug/app/view/ui/hall/HallPanel.js",
+		"bin-debug/app/view/ui/login/LoginPanel.js",
+		"bin-debug/app/vo/LoginVO.js"
 	]
 }

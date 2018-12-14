@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="464" height="430" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Label text="UserName" x="31.5" y="228" anchorOffsetX="0" width="152"/>
+		<e:Label text="PassWord" x="31.5" y="278" anchorOffsetX="0" width="166"/>
+		<e:Image x="50" y="26" source="egret_icon_png"/>
+		<e:Button id="btn_login" label="Login" x="183" y="357"/>
+		<e:TextInput width="234" height="33" x="199" y="232" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:TextInput width="234" height="33" x="199" y="278" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>
